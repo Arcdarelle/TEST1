@@ -1,40 +1,56 @@
-Introductory note
-=================
+### 1\. What is Telegram ?
 
-Important notes before starting this course.
---------------------------------------------
+        Telegram is an online messaging app that works just like popular messaging apps WhatsApp and Facebook Messenger. This means that you can use it to send messages to your friends when connected to Wi-Fi or your mobile data. Telegram is cloud-based and claims that it prioritizes security and speed, making it a good alternative to other popular messaging apps. The service launched in 2013, and since then it has reached 200 million active monthly users.
 
-1.  **Server prerequisite** : Throughout this course, we use a server to answer questions 1 to 20. **Note:** You will find 21 questions here because the root password  reset (Q14) was taken as a question. Before starting, download the server by [clicking here](https://utrains.s3.amazonaws.com/classmaterials/REDHAT8EXAM.ova).
-    
-2.  Go through the following slide to import the server in your Virtualbox and to break the root password in order to access the server.  **Note:** If you face any issue importing the server, follow the slide after this[**Click here to download the slide**](https://docs.google.com/presentation/d/1AOYQGSnG57a0PfAvuLoREwakspHRKilHwnBvtKGZVxo/edit?usp=sharing)
-    
-3.  If you encounter an issue while starting the imported server, follow this slide to solve the issue[**Click here to download the slide**](https://docs.google.com/presentation/d/15ol5UGQx4xS1S-RZuRl-miXQFalCJoHh___sNV1uGx8/edit?usp=sharing)
-    
-4.  **Reference to old platform** : Throughout this course, the instructor may use an older platform to download tools used in the course. We no longer use that platform. Please disregard those parts of the videos that use the old platform.
-    
-5.  If you are taking the exam from home, [this document](https://drive.google.com/file/d/1Zx4hnpsBzMM3_rG54ZW3lW2pXgnXCmRR/view?usp=sharing) will guide you throughout your preparation.
-    
+### 2\. Why do we prefer telegram over WhatsApp ?
 
-In the exam hall...
--------------------
+WhatsApp allows to add only 256 people to a group, whereas in Telegram groups, it is possible add up to 200,000 people. Since we have sometimes more than 256 members to integrate in the groups for each session, we have privileged Telegram over WhatsApp.
 
-1.  Read the instruction very very carefully!!!!
+### 3\. Install telegram
+
+To install the **Telegram app** on your **Android phone** or **Apple phone**:
+
+*   Open your Playstore or Apple store
     
-2.  You will have two VMs with CLI as **node1.example.com** and **node2.example.com** (Minimal Server)
+*   Search for Telegram
     
-3.  You will need to break the “root” password on the **node2.example.com** and then reset it to “**ringogee**” 
-    
-4.  You will need to set the “hostname” according to Exam instruction.
-    
-5.  You will need to set static IP address/Netmask/Gateway/DNS according to Exam instructions.
+*   Click on Install
     
 
-Before the exam, you might be asked to fill an online form with questions about how you studied for this. Also, you will need to fill in your name, your address, your email, accept Rules Agreement and then submit.
+### 4\. Set your telegram username
 
-**Note: you will get 3 disks on the virtual machine**
+        The username on Telegram is a unique alphanumeric name chosen by you for your Telegram account. The username can be used to find your profile and contact you directly. It helps you to chat with anyone on Telegram without having their phone number. You need you to set your username  so that we can add you to the Telegram Group.
 
-1.  /dev/vda ==> OS Installed
-    
-2.   /dev/vdb ==> To create partition( lvm and swap) (Pre-created partitions available)
-    
-3.  /dev/vdc ==> for Stratis pool, filesystem and snapshots or VDO volume
+        Please follow these instructions to configure your username if it’s not yet done
+
+a- Launch Telegram from your home screen or app drawer
+------------------------------------------------------
+
+b- Open the menu by tapping its icon on the upper-left corner of your screen.
+-----------------------------------------------------------------------------
+
+c- Tap "Settings". On the other hand, you can also select your profile icon from the menu to open the Settings page.
+--------------------------------------------------------------------------------------------------------------------
+
+d- Under the Account section, tap your current username. If you don’t have a username yet, you’ll see “None” as the option
+--------------------------------------------------------------------------------------------------------------------------
+
+e- Enter your desired username on the empty field
+-------------------------------------------------
+
+     Please enter a username with which you can be easily identified.
+
+f- You’ll see a message to check if the name is available for use. To save the changes, tap the checkmark on the upper-right corner of your screen.
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+**NOTE** : You can use a-z, 0-9 and underscores. Usernames are case-insensitive, but Telegram will store your capitalization preferences (e.g. Telegram and TeleGram is the same user). The username must be at least five characters long and should not contains spaces.
+
+### 5\. Form to Join the Telegram Group
+
+Please fill the form below with the rightful information for verification purpose.Note that you won’t have access to the group if we are unable to verify your enrollment to the session.Name \*Email \*Telegram Username \*Please read the previous section to define your Telegram username if that is not yet done.Submit
+
+### 6\. Join the Telegram Group
+
+Complete your application by clicking on the button below to request  access to the telegram communication channel.
+
+[Join the telegram group](https://t.me/+JDzV_0iWAzBhMTBk)
