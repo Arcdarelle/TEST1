@@ -1,6 +1,6 @@
 ## What is Discord?
 
-## **Discord ** is a popular communication platform designed for creating communities and connecting with others. It provides real-time interaction, discussion, and support among users. It has a lot of features that help us enhance your learning experience!
+## **Discord** is a popular communication platform designed for creating communities and connecting with others. It provides real-time interaction, discussion, and support among users. It has a lot of features that help us enhance your learning experience!
 
 ## What is a Discord server?
 
@@ -12,9 +12,13 @@
 
 Installing **Discord** on **Mobile or on your PC** is as easy as installing any other app.**A- Installation on Mobile**1) Go to **Google Play Store (for Android)** and **Apple App Store (for iOS)**,
 2)  Search the **Discord** app
-3) Click on **Install**.**B- Installation on computer**Go to the **[Discord Official download guide here](https://discord.com/download)****B1- For Windows*** * In the installation page, click on the **Download for Windows** button to download the app.
+3) Click on **Install**.**B- Installation on computer**Go to the **[Discord Official download guide here](https://discord.com/download)** **B1- For Windows** In the installation page, click on the **Download for Windows** button to download the app.
   * Once the download is complete, go to your **Downloads** folder, double click on the file that was downloaded (**DiscordSetup.exe**) and follow the instructions to install it.
-  * Once installed, you can then open the Discord app and register an account or log into an existing account.![](https://utrains.org/wp-content/uploads/2024/04/discord_windows-1.png)**B2- For MacOS*** * In the installation page, tap on the **Download for Mac** button to download the app.
+  * Once installed, you can then open the Discord app and register an account or log into an existing account.![](https://utrains.org/wp-content/uploads/2024/04/discord_windows-1.png)
+    
+**B2- For MacOS***
+
+  * In the installation page, tap on the **Download for Mac** button to download the app.
   * Open the **Discord.dmg** file that was downloaded
   * Drag the Discord logo and drop it over the Applications folder in the pop-up window.![](https://utrains.org/wp-content/uploads/2024/04/discord_macos-768x352.png)![](https://utrains.org/wp-content/uploads/2024/04/discord_macos_install-300x182.png)**Note:** You can also use the Web version in the browser or install it on your computer using the **[computer installation guide here](https://support.discord.com/hc/en-us/articles/360034561191-Desktop-Installation-Guide)**
 
