@@ -20,3 +20,4 @@ At the end of this week, you should be able to:
 5. Describe what is a Datacenter
 6. Understand at a high level how the applications we have on our phones functions in the background.
 
+### [Click here to download the slide](https://docs.google.com/presentation/d/1p_eVzZJ3M4U4QennnH2ft94uBKZ8Crjmg0y1hAtU44g/edit?usp=sharing)
