@@ -1,15 +1,7 @@
-## Prerequisites
+## The **Resources** section contains a list of all the labs, tutorials, or documentation that have been covered in each month of the course. This aims to facilitate your access to the various documents.Below, you’ll find links organized by week, helping you quickly locate the resources you need.**Note: Remember the link to each document is also directly included in each lesson under the slide or video it is associated to. Feel free to revisit the previous lessons or reach out for help if you encounter any challenges during the labs.**Show 102550100 (10) entriesType Here To Search...| #  | Weeks  | Titles with links                                                                                                                                                                                |
+| :- | :----- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1  | Week 4 | [Create an IAM user with Read-only access to an AWS service (EC2):](https://docs.google.com/document/d/1JnmmZ-KVVZu6WPPgkI4dx3Ankqe0brFNscwGYcxx95Y/edit?usp=sharing)                            |
+| 2  | Week 4 | [Create an IAM user with full access on AWS EC2 service](https://docs.google.com/document/d/1JnmmZ-KVVZu6WPPgkI4dx3Ankqe0brFNscwGYcxx95Y/edit?usp=sharing)                                       |
+| 3  | Week 4 | [AWS-CLI Installation on Windows, Mac-OS and Linux](https://docs.google.com/document/d/1RIYHxaw4Pd-ZYOgTb_z0Q9lQJAE7JO2gpk6XC9l5LUs/edit?usp=sharing)                                            |
+| 4  | Week 4 | [Create an IAM user with Administrator Access and configure it in the terminal using AWS\_CLI](https://docs.google.com/document/d/1spbrSaPJWo9_i4LoI5CO5buDlUacDac7JTNeva-PuWE/edit?usp=sharing) |
 
-### Before starting this projects, make sure you have gone through the lesson (video and slide) on **Users and groups in Linux** and have understood the concepts.
-
-## Project 1: Create IAM users in AWS
-
-### **Description:** There are two new users in the company, and your manager asked you to create an account for each of them on AWS.  Here are the specifications:- Each user must belong to a specific group
-- The first user must have **Read-only access to the AWS EC2 service**
-- The second user must have **Full access to the AWS EC2 service**1. Follow this documentation to create a user and add it to a group that has Read-only access to AWS EC2: **[Link here](https://docs.google.com/document/d/16PUJsTGtL8HoQoxtZuq1DA2PDx-lb1J2OG-b7zWI9WU/edit?usp=sharing)**
-2. Follow this documentation to create a user and add it to a group that has Full access to AWS EC2: **[Link here](https://docs.google.com/document/d/1JnmmZ-KVVZu6WPPgkI4dx3Ankqe0brFNscwGYcxx95Y/edit?usp=sharing)**
-
-## Project 2: Install and configure AWS CLI
-
-### **Description: **In this project, you need to install and configure **AWS-CLI** on your computer.1) Follow this installation guide to Install AWS CLI: **[Link here](https://docs.google.com/document/d/1RIYHxaw4Pd-ZYOgTb_z0Q9lQJAE7JO2gpk6XC9l5LUs/edit?usp=sharing)**
-2) Follow this document to **configure AWS CLI** with an IAM user having Administrator access on AWS: **[Link here](https://docs.google.com/document/d/1spbrSaPJWo9_i4LoI5CO5buDlUacDac7JTNeva-PuWE/edit?usp=sharing)**Mark Complete
