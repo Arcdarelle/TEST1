@@ -22,6 +22,8 @@ To install the **Telegram app** on your **Android phone** or **Apple phone*
         The username on Telegram is a unique alphanumeric name chosen by you for your Telegram account. The username can be used to find your profile and contact you directly. It helps you to chat with anyone on Telegram without having their phone number. You need you to set your username  so that we can add you to the Telegram Group.
 
         Please follow these instructions to configure your username if it’s not yet done
+[Click here to download the slide](https://docs.google.com/presentation/d/1HlknTGng3DQaKQUFSBwVRZY2uiuJVKkFhJzhClSrXLc)
+
 
 
 ## a- Launch Telegram from your home screen or app drawer
