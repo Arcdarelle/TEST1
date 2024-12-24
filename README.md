@@ -1,4 +1,4 @@
-[Click here to download the slide](https://docs.google.com/presentation/d/1gbeR2JHlEH1g2ir-c1SGWRwy2mq1-iaaEpfjMUxuz5w/edit?usp=sharing)
+In this training, we will use **Amazon Web Services (AWS)** to accomplish some tasks. Thus, after setting up your computer, please follow the instructions in the following video and slide to create a **free tier account on AWS.**
 
 
---------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
