@@ -12,7 +12,11 @@
 
 Installing **Discord** on **Mobile or on your PC** is as easy as installing any other app.**A- Installation on Mobile**1) Go to **Google Play Store (for Android)** and **Apple App Store (for iOS)**,
 2)  Search the **Discord** app
-3) Click on **Install**.**B- Installation on computer**Go to the **[Discord Official download guide here](https://discord.com/download)** **B1- For Windows** In the installation page, click on the **Download for Windows** button to download the app.
+3) Click on **Install**.**B- Installation on computer**Go to the **[Discord Official download guide here](https://discord.com/download)** 
+
+**B1- For Windows** 
+
+  * In the installation page, click on the **Download for Windows** button to download the app.
   * Once the download is complete, go to your **Downloads** folder, double click on the file that was downloaded (**DiscordSetup.exe**) and follow the instructions to install it.
   * Once installed, you can then open the Discord app and register an account or log into an existing account.![](https://utrains.org/wp-content/uploads/2024/04/discord_windows-1.png)
     
@@ -20,7 +24,11 @@ Installing **Discord** on **Mobile or on your PC** is as easy as installing 
 
   * In the installation page, tap on the **Download for Mac** button to download the app.
   * Open the **Discord.dmg** file that was downloaded
-  * Drag the Discord logo and drop it over the Applications folder in the pop-up window.![](https://utrains.org/wp-content/uploads/2024/04/discord_macos-768x352.png)![](https://utrains.org/wp-content/uploads/2024/04/discord_macos_install-300x182.png)**Note:** You can also use the Web version in the browser or install it on your computer using the **[computer installation guide here](https://support.discord.com/hc/en-us/articles/360034561191-Desktop-Installation-Guide)**
+  * Drag the Discord logo and drop it over the Applications folder in the pop-up window.
+    ![](https://utrains.org/wp-content/uploads/2024/04/discord_macos-768x352.png)
+    ![](https://utrains.org/wp-content/uploads/2024/04/discord_macos_install-300x182.png)
+
+**Note:** You can also use the Web version in the browser or install it on your computer using the **[computer installation guide here](https://support.discord.com/hc/en-us/articles/360034561191-Desktop-Installation-Guide)**
 
 ## How to create your account on Discord?
 
@@ -29,13 +37,17 @@ Installing **Discord** on **Mobile or on your PC** is as easy as installing 
 * **Username.** **NB:** Your username should help us to identify you easily. Note down your username and keep it handy for the next lesson.
 * **Password**
 * Agree to the **Discord terms of service and privacy policy** by checking the box then click on **Continue**
-* Confirm that you are not a robot and finish the process**Note****: **After registration, you will receive an email for verification. Go to your email inbox and click on **verify your email address**. By verifying your email address, you’ll be able to keep your username and recover your account if you ever forget your password. _If you do not see the mail in your inbox, please check your spams._![](https://utrains.org/wp-content/uploads/2024/04/registration.png)
+* Confirm that you are not a robot and finish the process**Note****: **After registration, you will receive an email for verification. Go to your email inbox and click on **verify your email address**. By verifying your email address, you’ll be able to keep your username and recover your account if you ever forget your password. _If you do not see the mail in your inbox, please check your spams.
+
+_![](https://utrains.org/wp-content/uploads/2024/04/registration.png)
 
 ## How to login to your account on Discord?
 
 ## Once you’re at the login page,1) Type your **email address** that has been officially verified to your Discord account in the first text box.
 2) In the second box, type the **password** associated with your account!
-3) Click on **Login**![](https://utrains.org/wp-content/uploads/2024/04/login-discord.png)
+3) Click on **Login**
+
+![](https://utrains.org/wp-content/uploads/2024/04/login-discord.png)
 
 ## How to join the Utrains discord server?
 
@@ -45,7 +57,9 @@ For security reasons, this link has expired. Please contact our support team via
 
 ## How to see your Username in Discord?
 
-## Open the Discord app on your Android or iPhone. Tap on the **profile** at the bottom right corner as shown in the image**Note:** Your **Display Name** appear bigger than the **Username**. ![](https://utrains.org/wp-content/uploads/2024/04/discord-username.drawio.png)
+## Open the Discord app on your Android or iPhone. Tap on the **profile** at the bottom right corner as shown in the image**Note:** Your **Display Name** appear bigger than the **Username**. 
+
+![](https://utrains.org/wp-content/uploads/2024/04/discord-username.drawio.png)
 
 ## What next?
 
