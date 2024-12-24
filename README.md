@@ -1,6 +1,6 @@
 ## What is Discord?
 
-## **Discord **is a popular communication platform designed for creating communities and connecting with others. It provides real-time interaction, discussion, and support among users. It has a lot of features that help us enhance your learning experience!
+## **Discord ** is a popular communication platform designed for creating communities and connecting with others. It provides real-time interaction, discussion, and support among users. It has a lot of features that help us enhance your learning experience!
 
 ## What is a Discord server?
 
@@ -8,7 +8,9 @@
 
 ## How to install Discord?
 
-## ![](https://utrains.org/wp-content/uploads/2024/04/Discord_logo_PNG8-300x58.png)Installing **Discord** on **Mobile or on your PC** is as easy as installing any other app.**A- Installation on Mobile**1) Go to **Google Play Store (for Android)** and **Apple App Store (for iOS)**,
+## ![](https://utrains.org/wp-content/uploads/2024/04/Discord_logo_PNG8-300x58.png)
+
+Installing **Discord** on **Mobile or on your PC** is as easy as installing any other app.**A- Installation on Mobile**1) Go to **Google Play Store (for Android)** and **Apple App Store (for iOS)**,
 2)  Search the **Discord** app
 3) Click on **Install**.**B- Installation on computer**Go to the **[Discord Official download guide here](https://discord.com/download)****B1- For Windows*** * In the installation page, click on the **Download for Windows** button to download the app.
   * Once the download is complete, go to your **Downloads** folder, double click on the file that was downloaded (**DiscordSetup.exe**) and follow the instructions to install it.
