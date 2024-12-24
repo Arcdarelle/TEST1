@@ -1,29 +1,78 @@
-The **Resources** section contains a list of all the labs, tutorials, or documentation that have been covered in each month of the course. This aims to facilitate your access to the various documents.
+### 1. What is Telegram ?
 
-Below, you’ll find links organized by week, helping you quickly locate the resources you need.
+        Telegram is an online messaging app that works just like popular messaging apps WhatsApp and Facebook Messenger. This means that you can use it to send messages to your friends when connected to Wi-Fi or your mobile data. Telegram is cloud-based and claims that it prioritizes security and speed, making it a good alternative to other popular messaging apps. The service launched in 2013, and since then it has reached 200 million active monthly users.
 
-**Note:** **Remember the link to each document is also directly included in each lesson under the slide or video it is associated to. Feel free to revisit the previous lessons or reach out for help if you encounter any challenges during the labs.**
 
-Show 102550100 entries#WeeksTitles with links1
+### 2. Why do we prefer telegram over WhatsApp ?
 
-Week 4
+WhatsApp allows to add only 256 people to a group, whereas in Telegram groups, it is possible add up to 200,000 people. Since we have sometimes more than 256 members to integrate in the groups for each session, we have privileged Telegram over WhatsApp.
 
-[Create an IAM user with Read-only access to an AWS service (EC2):](https://docs.google.com/document/d/1JnmmZ-KVVZu6WPPgkI4dx3Ankqe0brFNscwGYcxx95Y/edit?usp=sharing)
 
-2
+### 3. Install telegram
 
-Week 4
+To install the **Telegram app** on your **Android phone** or **Apple phone**:
 
-[Create an IAM user with full access on AWS EC2 service](https://docs.google.com/document/d/1JnmmZ-KVVZu6WPPgkI4dx3Ankqe0brFNscwGYcxx95Y/edit?usp=sharing)
+- Open your Playstore or Apple store
+- Search for Telegram
+- Click on Install
 
-3
 
-Week 4
+### 4. Set your telegram username
 
-[AWS-CLI Installation on Windows, Mac-OS and Linux](https://docs.google.com/document/d/1RIYHxaw4Pd-ZYOgTb_z0Q9lQJAE7JO2gpk6XC9l5LUs/edit?usp=sharing)
+        The username on Telegram is a unique alphanumeric name chosen by you for your Telegram account. The username can be used to find your profile and contact you directly. It helps you to chat with anyone on Telegram without having their phone number. You need you to set your username  so that we can add you to the Telegram Group.
 
-4
+        Please follow these instructions to configure your username if it’s not yet done
 
-Week 4
 
-[Create an IAM user with Administrator Access and configure it in the terminal using AWS\_CLI](https://docs.google.com/document/d/1spbrSaPJWo9_i4LoI5CO5buDlUacDac7JTNeva-PuWE/edit?usp=sharing)
+## a- Launch Telegram from your home screen or app drawer
+
+## b- Open the menu by tapping its icon on the upper-left corner of your screen.
+
+![](https://utrains.org/wp-content/uploads/2021/12/tun1.png)
+
+
+## c- Tap "Settings". On the other hand, you can also select your profile icon from the menu to open the Settings page.
+
+![](https://utrains.org/wp-content/uploads/2021/12/tun2.png)
+
+
+## d- Under the Account section, tap your current username. If you don’t have a username yet, you’ll see “None” as the option
+
+![](https://utrains.org/wp-content/uploads/2021/12/tun3.png)
+
+
+## e- Enter your desired username on the empty field
+
+     Please enter a username with which you can be easily identified.
+
+![](https://utrains.org/wp-content/uploads/2021/12/tun4.png)
+
+
+## f- You’ll see a message to check if the name is available for use. To save the changes, tap the checkmark on the upper-right corner of your screen.
+
+![](https://utrains.org/wp-content/uploads/2021/12/tun5.png)
+
+**NOTE** : You can use a-z, 0-9 and underscores. Usernames are case-insensitive, but Telegram will store your capitalization preferences (e.g. Telegram and TeleGram is the same user). The username must be at least five characters long and should not contains spaces.
+
+
+### 5. Form to Join the Telegram Group
+
+Please fill the form below with the rightful information for verification purpose.\
+Note that you won’t have access to the group if we are unable to verify your enrollment to the session.
+
+**Name \***Full Name\*
+
+**Email \***[Email \*](<mailto:Email *>)
+
+**Telegram Username \***Telegram Username \*
+
+Please read the previous section to define your Telegram username if that is not yet done.
+
+Submit
+
+
+### 6. Join the Telegram Group
+
+Complete your application by clicking on the button below to request  access to the telegram communication channel.
+
+[Join the telegram group](https://t.me/+JDzV_0iWAzBhMTBk)
