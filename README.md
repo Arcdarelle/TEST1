@@ -1,29 +1,39 @@
 ##
 
-# **How to join the Live Class?**
+#
 
-# **Introduction to Zoom**
+# **Join the Utrains Discord server**
 
-# Zoom is a widely used video conferencing tool that allows individuals and organizations to conduct virtual meetings, webinars, and live classes online. It offers features such as video and audio conferencing, chat, and recording sessions for later viewing. Zoom is accessible on various platforms, including Windows, MacOS, and mobile devices, making it a versatile choice for online communication and education.
+# ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdNEvOkj7mseSymh13dUTxvZkPedtUlQV6x-IaRDUPe9Yv00STmQYlLhxGfmIkDMUAz66Ag-KGa99btvwYScnYIdVFhgtbNFzGcPU76H81sS6Y6vBqZhhFTyEAryVgL8ZtZ9LpbSQ?key=6iPCzgia8A7_nlfFxY5Z3QoA)
 
-# **Goal of the Lesson**
+## **What is Discord?**
 
-# The goal of this lesson is to show you how to join a live class using Zoom.
+# Discord is a popular communication platform designed for creating communities and connecting with others. It provides real-time interaction, discussion, and support among users. It has a lot of features that help us enhance your learning experience!
 
-# **Download & Install Zoom**
+## What is a Discord server?
 
-# - Visit the [official download page](https://zoom.us/support/download) of the Zoom website,
+# A Discord server is a virtual space within the Discord platform where users can join, interact, and communicate with each other. You can think of it as a WhatsApp or Telegram group. In a Discord server, you can interact in text channels and voice (video) channels.
 
-- Choose your operating system depending on if you are using MAC or Windows,
+## How to install Discord?
 
-- Click on the “Download” button. When the download is completed, install Zoom on your device.
+# Installing Discord on Mobile or on your PC is as easy as installing any other app.A- Installation on Mobile1) Go to 
 
-# **Join the live class**
+2) Google Play Store (for Android)
 
-# This session’s classes will be held every Saturday at 10 EST and every Sunday at 15 EST. If you don’t know what time that is in your time zone, [click here](https://dateful.com/time-zone-converter?t=10am\&tz2=Eastern-Time-ET).To join the class, click on the button below.[Join the live class](https://us02web.zoom.us/j/83175713474?pwd=Qm5WaWQ5WU9qUmlyaTVhdVJjSXJJUT09)You’ll be redirected to a new tab, as shown in the screenshot below. Here you have two options:* Join the class using the Zoom application you have installed on your computer. In this case, click on “**Open Zoom**“, step 1, as shown in the screenshot,
+3)  and 
 
-* You can also join the class through your web browser. In this case, click on “**Cancel**“, step 2, then click on “**Join from Your Browser**“, step 3.![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdvw5mTNGowoCTooyRkUUwQy1OcOIjdlf8kCqpmlUjiIXnIJYOAhlHhP5_MF8hED7mPslThO3dAAf9qaUAKiTlS9mljQtLVqqFCPJe71E9_GmYusBvn6wbiHn6aXwPjd78EF5atMQ?key=kwzjNsLWCS9ALsAzOd4qPoH8)Once you have completed one of the two steps above, all you need to do is wait for a host to admit you to the class, as shown in the screenshots below\.If you chose to join via the Zoom application (step 1), the Zoom app will launch and you will see the following screen.![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdKD1cPeUx-Vm9GvCjEKr_eKmpfhjyprF_Hk-i9tUyM3xFNGE6s7L79oMtmS_wAjVFyb2a49D0068ef64fJVnZDJWeGJMwcTup7lssoZ-Ii4EvUF5sXrUqX6zlpnTwHPboytjY2SA?key=kwzjNsLWCS9ALsAzOd4qPoH8)If you chose to join via the browser instead, you will see the screen below.![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfQDx9uQhk2fo9HWcTM4sJOP7IyBc3YTfcMbTY1q7_EwDLXmDJUCo5S7O5IGgZwDv_WCD-LDLKzudamGR-5R3NU76LldYuEWLjFthm4z55-UL5u5RR5gnU9eRDlQqErdj4ebNLfHQ?key=kwzjNsLWCS9ALsAzOd4qPoH8)
+4) Apple App Store (for iOS)
 
-# **Another place where to find the link to the live**
+5) ,
 
-# You can also find the live Zoom link on the [course description page](https://utrains.org/courses/march-we-2024). As shown in the screenshot below, simply click on the “**Join the Live Class**” button.
+6)  Search the Discord app
+
+7) Click on Install.B- Installation on computerGo to the [Discord Official download guide here](https://discord.com/download)B1- For Windows* In the installation page, click on the Download for Windows button to download the app.
+
+* Once the download is complete, go to your Downloads folder, double click on the file that was downloaded (DiscordSetup.exe) and follow the instructions to install it.
+
+* Once installed, you can then open the Discord app and register an account or log into an existing account.![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfZpsKrN51Qu94ao3hBcQ-Mao70Ij-GqWNaqGb07nMyylzghQO1dO4ybzTVKi0XWHqvJ5b1DjHwRCtP5ofaZeO6dAyR9KqvPgc2q8gLdkRGY4E4EIrmShkGoaxD_7M9iXzh4o_gog?key=6iPCzgia8A7_nlfFxY5Z3QoA)B2- For MacOS* In the installation page, tap on the Download for Mac button to download the app.
+
+* Open the Discord.dmg file that was downloaded
+
+* Drag the Discord logo and drop it over the Applications folder in the pop-up window.![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfUG9Z6xYbgRQTzCBiR958bv0H3d607HlgZODZtDuD_jyRPReTZP_Xo43L6TjK4E6jSwS_BXwQM0ZdAJzc9SYCE0ueCq86kFj02KIgGvZ7FHkTU5BFalKjSUyaUsPShodrZgStGNw?key=6iPCzgia8A7_nlfFxY5Z3QoA)Note: Official installation guide [computer installation guide here](https://support.discord.com/hc/en-us/articles/360034561191-Desktop-Installation-Guide)
