@@ -1,39 +1,31 @@
 ##
 
-#
+# **Create your account and Login to Discord**
 
-# **Join the Utrains Discord server**
+##
 
-# ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdNEvOkj7mseSymh13dUTxvZkPedtUlQV6x-IaRDUPe9Yv00STmQYlLhxGfmIkDMUAz66Ag-KGa99btvwYScnYIdVFhgtbNFzGcPU76H81sS6Y6vBqZhhFTyEAryVgL8ZtZ9LpbSQ?key=6iPCzgia8A7_nlfFxY5Z3QoA)
+## How to create your account on Discord?
 
-## **What is Discord?**
+# Once the application is fully installed, open it and click on Register to create your account. Fill in the account informations progressively:* Email address 
 
-# Discord is a popular communication platform designed for creating communities and connecting with others. It provides real-time interaction, discussion, and support among users. It has a lot of features that help us enhance your learning experience!
+* Display Name 
 
-## What is a Discord server?
+* Username. 
 
-# A Discord server is a virtual space within the Discord platform where users can join, interact, and communicate with each other. You can think of it as a WhatsApp or Telegram group. In a Discord server, you can interact in text channels and voice (video) channels.
+* NB:
 
-## How to install Discord?
+*  Your username should help us to identify you easily. Note down your username and keep it handy.
 
-# Installing Discord on Mobile or on your PC is as easy as installing any other app.A- Installation on Mobile1) Go to 
+* Password
 
-2) Google Play Store (for Android)
+* Agree to the Discord terms of service and privacy policy by checking the box then click on Continue
 
-3)  and 
+* Confirm that you are not a robot and finish the processNote: After registration, you will receive an email for verification. Go to your email inbox and click on verify your email address. By verifying your email address, you’ll be able to keep your username and recover your account if you ever forget your password. _If you do not see the mail in your inbox, please check your spams.___![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdEO-CUF4rDuLCIUbLbI_R7a4yVg4bUQVzNNENGQIjQoeqNytMl-VY9jLrMSUBjmZh9cmLGuID-yJzM13bgSjmsyNHWWLj-9Y60hys95QKpkl71beN2NIKLZbO6i2X4jkXu8QNsMQ?key=4nijDkbC0aRPHuMITgb59qZe)__
 
-4) Apple App Store (for iOS)
+## How to login to your account on Discord?
 
-5) ,
+# Once you’re at the login page,1) Type your email address that has been officially verified to your Discord account in the first text box.
 
-6)  Search the Discord app
+2) In the second box, type the password associated with your account
 
-7) Click on Install.B- Installation on computerGo to the [Discord Official download guide here](https://discord.com/download)B1- For Windows* In the installation page, click on the Download for Windows button to download the app.
-
-* Once the download is complete, go to your Downloads folder, double click on the file that was downloaded (DiscordSetup.exe) and follow the instructions to install it.
-
-* Once installed, you can then open the Discord app and register an account or log into an existing account.![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfZpsKrN51Qu94ao3hBcQ-Mao70Ij-GqWNaqGb07nMyylzghQO1dO4ybzTVKi0XWHqvJ5b1DjHwRCtP5ofaZeO6dAyR9KqvPgc2q8gLdkRGY4E4EIrmShkGoaxD_7M9iXzh4o_gog?key=6iPCzgia8A7_nlfFxY5Z3QoA)B2- For MacOS* In the installation page, tap on the Download for Mac button to download the app.
-
-* Open the Discord.dmg file that was downloaded
-
-* Drag the Discord logo and drop it over the Applications folder in the pop-up window.![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfUG9Z6xYbgRQTzCBiR958bv0H3d607HlgZODZtDuD_jyRPReTZP_Xo43L6TjK4E6jSwS_BXwQM0ZdAJzc9SYCE0ueCq86kFj02KIgGvZ7FHkTU5BFalKjSUyaUsPShodrZgStGNw?key=6iPCzgia8A7_nlfFxY5Z3QoA)Note: Official installation guide [computer installation guide here](https://support.discord.com/hc/en-us/articles/360034561191-Desktop-Installation-Guide)
+3) Click on Login![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfkYoPetBd4RQoReXskr1tpa0SkvaKyDqjmgvUtFGsEexse_zg434R7g9UZtXxZhFDpe-3sFCMu2b72WuPMIrx-9WMpfg7PSGDLAsRCuGZ8bH3KVOhCp23ZQc11-NcEEbWL5mV_?key=4nijDkbC0aRPHuMITgb59qZe)
