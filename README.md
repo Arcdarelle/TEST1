@@ -69,6 +69,7 @@ Note that you won’t have access to the group if we are unable to verify your e
 Please read the previous section to define your Telegram username if that is not yet done.
 
 Submit
+[Click here to download the slide](https://docs.google.com/presentation/d/1gbeR2JHlEH1g2ir-c1SGWRwy2mq1-iaaEpfjMUxuz5w/edit?usp=sharing)
 
 
 ### 6. Join the Telegram Group
