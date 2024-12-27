@@ -1,2 +1,10 @@
-"The following document is the slide (Powerpoint) used in the video to launch your first server in AWS: [Click here to download the slide](https://docs.google.com/presentation/d/10aBVYSd9nnTrIqvCh8CF21uxDqmk3KP2f9u_gQ2ceJM/edit?usp=sharing)
-"
+##
+
+### **Welcome to this training program!** 
+
+## Before getting into class, you need to setup your computer by following the instructions provided in the following videos (and slides). Follow this lesson only if you  are using a **Mac computer**.
+
+### **Setup for Mac computers ONLY: video and slide**
+
+## If you are using a MAC computer, please follow the video below to setup your computer.**Note:** **This lesson is not for windows computers**. If you are using a Windows computer, please click on the first lesson instead ([Windows Computer setup](https://utrains.org/lessons/windows-computer-setup-for-windows-computers-only-september-2024/) )
+
