@@ -1,27 +1,25 @@
-Q10 : NTP Chrony
+Q11 : Find Files
 ================
 
 
-**Question 10.** Configure your system to syncronize the time from _“classroom.example.com”._
+**Question 11.** Find all files and directories which is created by a user “julia” in to this system and copy it into a _**“/root/findfiles”**_ directory.
 
 **Answer**
 
 ```
-# Check if cron is installed
-rpm -qa chrony
+# create the /root/findfiles directory
+mkdir /root/findfiles
 
-# Check status of the daemon  and make sure it is enabled
-systemctl status chronydsystemctl enable chronyd
+# find the files and copy
+find / -user julia  -exec cp -rvp {} /root/findfiles/ \; 2> /dev/null
 
-# edit the configuration file
-vi /etc/chrony.conf
+# note: to find and copy all the files only, use this instead:
+find / -user julia -type f -exec cp -rvp {} /root/findfile/ \; 2> /dev/null
 
-# under the line starting with pool, press o to create a new line. Type:
-pool classroom.example.com iburst#save and quit
-
-# restart the service
-systemctl restart chronyd.service
+# note: to find and copy all the files only, use this instead:
+find / -user julia -type d -exec cp -rvp {} /root/findfile/ \; 2> /dev/null
 
 # check
-chronyc sources -v
+cd /root/findfiles
+ls -la
 ```
