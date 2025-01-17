@@ -1,14 +1,12 @@
-Q12 : Search String
-===================
+Q13 : User UID
+==============
 
-**Question 12.** Find all strings “_**mbms**_” from “_**/usr/share/dict/words**_” file and copy that strings in a _**/root/lines**_ file.
+##### January 7, 2021
+
+**Question 13.** Create a user “magniola” with UID “2853” with password as “ringogee”.
 
 **Answer**
 
 ```
-# To find and copy just the string
-grep -o mbms /usr/share/dict/words  > /root/lines
-
-# Note: To find and copy all the line instead, you will use this:
-grep mbms /usr/share/dict/words  > /root/lines
+# create user magniolauseradd -u 2334 magniola  # set user passwordpasswd magniola
 ```
