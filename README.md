@@ -1,25 +1,37 @@
-Q14 : Root Password
-===================
+Q15 : Yum Repo
+==============
 
-**Question 14.** Root Password reset
 
-**Answer**
+**Question 15.** Configure your VM repository. The packages distribution are available via YUM:
 
 ```
-# steps to break the root password
+baseos url = http://content.example.com/rhel7.0/x86_64/dvd/BaseOs  appstream url= http://content.example.com/rhel7.0/x86_64/dvd/Appstrea   `
+```
 
+**Answer: same as question 2.**
 
-1- Boot up the server
-2- Enter e at the grub
+```
+# check the repolist available (There will be none on this server)yum repolist all# Navigate to the /etc/yum/repos.d folder, create and edit a new .repo filecd /etc/yum.repos.d vi server.repo
+```
 
-# at the end of the line starting with linux
+*   **AppStream:**
+    
 
-3- rd.break
-4- Ctrl + x
-5- # mount -o remount,rw /sysroot
-6- # chroot /sysroot
-7-# passwd root
-8- Enter ringogee as password and confirm
-9- # touch /.autorelabel
-10- #exit11- #exit   
+For practice on this server, instead use the following baseurl: **file:///opt/exam/AppStream**
+
+```
+[AppStream]name= AppStream baseurl=http://content.example.com/rhel7.0/x86_64/dvd/Appstream gpgcheck=0 enabled=1
+```
+*   **BaseOS**
+    
+
+For practice on this server, instead use the following baseurl: **file:///opt/exam/BaseOS**
+
+```
+[BaseOS]name=BaseOSbaseurl=http://content.example.com/rhel7.0/x86_64/dvd/BaseOs gpgcheck=0 enabled=1   
+```
+Save and quit the file, clean the yum cash and check the repolist
+
+```
+yum clean allyum repolist all
 ```
