@@ -7,19 +7,19 @@ Q6 : Cronjob
 **Answer**
 
 ```
-# check if the crontab package is installed
+# Check if the crontab package is installed
 rpm -qa crontabs
 
 # Check if the daemon is running and enabled
 systemctl status crond
 
-# create the cronjob
-crontab  -e -u natasha  */3****  echo "EX200 Testing"
+# Create the cronjob
+crontab  -e -u natasha  */3 * * * * echo "EX200 Testing"
 
-# restart and enable the service
+# Restart and enable the service
 systemctl restart crond.service
 systemctl enable crond.service
 
-# verify the cronjob is set for the user
+# Verify the cronjob is set for the user
 crontab -l -u natasha
 ```
