@@ -1,60 +1,65 @@
-Q19 : Stratis Volume
-====================
+Q20 : VDO Volume
+================
 
 
-**Question 19.** Configure Stratis as following
+**Question 20**. Configure VDO as per following
 
-*   create stratis pool
+*   Create a Volume using VDO as vgough
     
-*   create filesystem
+*   Volume Logical Size should be 50G
     
-*   take snapshot
+*   format it using **xfs** file system type
+    
+*   make it persistant mountt at **/mnt/vgough**
     
 
 **Answer**
 
-Stratis a a tool that can be used to manipulate volumes in Linux. For the practice, we are going to use the sdc partition of the hard drive
+Before answering this question, you need to remove the Stratis volume we created in the previous question in order to use the sdc drive.
 
+[**Click here to do that.**](https://drive.google.com/file/d/1eSGpNnxbqvYqkDKjmubyjH9MMu9EEATj/view?usp=sharing)
+
+ * Check if VDO is installed
 ```
-# create a pool with stratis
-stratis pool create pool1 /dev/sdc
+# check if VDO is installed, if not install it
+vdo
+yum install -y vdo kmod-kvdo
+systemctl start vdo
+systemctl enable --now vdo
+```
+ * Create the VDO volume
+```
+# Create the VDO volume
+vdo create --name=vgough --device=/dev/sdc --vdoLogicalSize=50G
 
-# if stratis is not found just install it, start and enable the service
-yum search stratis
-yum install stratis-cli
-stratisd -y
-systemctl start stratisd
-systemctl enable stratisd
-systemctl status stratisd
-
-# create the stratis pool list
-stratis pool create pool1 /dev/sdc
-stratis pool list
-
-# create a file system  stratis file
-system create pool1 fs1
-stratis filesystem list
-
+# the path to the volume is given at the end /dev/mapper/vgouh
+```
+ * Create a file system
+```
+# create a file system using the format xfs
+mkfs.xfs -K /dev/mapper/vgough
+udevadm settle
+```
+ * Create a mount point
+```
 # create a mount point
-mkdir /mnt/fs1
-blkid
+mkdir /mnt/vgough
 ```
-This shows the stratis volume with its UUID  as well as the type xfs  
+ * Mount the volume
 ```
-# mount the file system
+# mount the volume
 vi /etc/fstab
 
-# at the end of the file press o to enter a new line
-/stratis/pool1/fs1  /mnt/fs1  xfs  defaults   0 0
+# at the end of the file, press o to add the following line
+/dev/mapper/vgough /mnt/vgough xfs x-systemd.requires=vdo.service, 0 0
 
 # save and quit
 mount -a
-df -h
-
-# take a snapshot (backup)
-stratis filesystem snapshot pool1 fs1 fs1-snap1
-stratis filesystem list
 
 # check
-df -h
+reboot
 ```
+
+If the system does not reboot, follow the process to break the root password.
+
+Instead of running the **root passwd** command, run the **\# vi /etc/fstab** command and put a **#** sign in front of the line you are suspecting (to disable it)and then reboot the system
