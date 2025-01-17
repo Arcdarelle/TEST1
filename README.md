@@ -1,34 +1,27 @@
-Q9 : fstab permission
-=====================
+Q10 : NTP Chrony
+================
 
 
-**Question 9** : Copy the file **/etc/fstab** to **/var/tmp**. Configure the permissions of **/var/tmp/fstab** so that:
-
-*   the file **/var/tmp/fstab** is owned by the root user
-    
-*   the file **/var/tmp/fstab** belong to the group root
-    
-*   the file **/var/tmp/fstab** should not be execubable by anyone
-    
-*   the user “natasha” is able to read and write **/var/tmp/fstab**
-    
-*   the user “harry” can neither write nor read **/var/tmp/fstab**
-    
-*   all other users (current or future) have the ability to read **/var/tmp/fstab**
-    
+**Question 10.** Configure your system to syncronize the time from _“classroom.example.com”._
 
 **Answer**
 
 ```
-# copy the file
-cp /etc/fstab /var/tmp/
-cd /var/tmp/ll
+# Check if cron is installed
+rpm -qa chrony
 
-# configure permissions
-getfacl fstab      #(no user nathasha here)
-setfacl -m u:natasha:rw fstab
-setfacl -m u:harry:---  fstab
+# Check status of the daemon  and make sure it is enabled
+systemctl status chronydsystemctl enable chronyd
+
+# edit the configuration file
+vi /etc/chrony.conf
+
+# under the line starting with pool, press o to create a new line. Type:
+pool classroom.example.com iburst#save and quit
+
+# restart the service
+systemctl restart chronyd.service
 
 # check
-getfacl fstab
+chronyc sources -v
 ```
