@@ -1,3 +1,8 @@
+Q1 : Network Configuration
+==========================
+
+[RedHat Exam Preparation](https://utrains.org/courses/redhat-exam-preparation/)  [Q1 : Network Configuration](https://utrains.org/lessons/q1-network-configuration/)In Progress
+
 **Question 1** : Configure TCP/IP and “hostname” as following:
 
 `   IP ADDRESS = 172.25.X.10NETMASK = 255.255.255.0GATEWAY = 172.25.X.254DNS = 172.25.254.254Hostname = node1.example.com   `
@@ -13,6 +18,12 @@ The above parameters are the one given on the exam sheet. For the practice now, 
 3.  To check or modify the DNS configuration, you can vi in the **/etc/resolv.conf** file, search for the hostname of your server to see its DNS address
     
 
-`# nmtui (use this command to configure network parameters)At the end of the network configuration with nmtui, you can use the Activate a connection menu to refresh the network## DNS Issue Resolve vi /etc/resolv.conf search the name of the server` 
+```
+# nmtui (use this command to configure network parameters)At the end of the network configuration with nmtui, you can use the Activate a connection menu to refresh the network
+## DNS Issue Resolve
+vi /etc/resolv.conf
+search the name of the server
+
+``` 
 
 **Note:** After configuring the IP address of your server, you can use that to connect remotely using Visual Studio Code or any other SSH tool
