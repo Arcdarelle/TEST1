@@ -47,5 +47,6 @@ enabled=1
 Save and quit the file, clean the yum cash and check the repolist
 
 ```
-yum clean allyum repolist all
+yum clean all
+yum repolist all
 ```
