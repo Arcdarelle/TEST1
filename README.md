@@ -5,13 +5,19 @@ Q15 : Yum Repo
 **Question 15.** Configure your VM repository. The packages distribution are available via YUM:
 
 ```
-baseos url = http://content.example.com/rhel7.0/x86_64/dvd/BaseOs  appstream url= http://content.example.com/rhel7.0/x86_64/dvd/Appstrea   `
+baseos url = http://content.example.com/rhel7.0/x86_64/dvd/BaseOs
+appstream url= http://content.example.com/rhel7.0/x86_64/dvd/Appstrea   `
 ```
 
 **Answer: same as question 2.**
 
 ```
-# check the repolist available (There will be none on this server)yum repolist all# Navigate to the /etc/yum/repos.d folder, create and edit a new .repo filecd /etc/yum.repos.d vi server.repo
+# check the repolist available (There will be none on this server)
+yum repolist all
+
+# Navigate to the /etc/yum/repos.d folder, create and edit a new .repo file
+cd /etc/yum.repos.d
+vi server.repo
 ```
 
 *   **AppStream:**
