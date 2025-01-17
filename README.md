@@ -1,25 +1,34 @@
-Q8 : Backup
-===========
+Q9 : fstab permission
+=====================
 
 
-**Question 8.** Create a backup 
+**Question 9** : Copy the file **/etc/fstab** to **/var/tmp**. Configure the permissions of **/var/tmp/fstab** so that:
 
-
- *  Create a tar archive of “**/usr/local/**” Directory with **.bzip2** ( can also be **.tgz** )extension.
- *  Tar archive named **“myetcbackup.tar”** should be place in “**/root/**” Directory.
+*   the file **/var/tmp/fstab** is owned by the root user
+    
+*   the file **/var/tmp/fstab** belong to the group root
+    
+*   the file **/var/tmp/fstab** should not be execubable by anyone
+    
+*   the user “natasha” is able to read and write **/var/tmp/fstab**
+    
+*   the user “harry” can neither write nor read **/var/tmp/fstab**
+    
+*   all other users (current or future) have the ability to read **/var/tmp/fstab**
+    
 
 **Answer**
 
 ```
-# verify that tar and bzip2 or gzip2 are installed
-yum install tar
-yum install bzip2 #(or yum install gzip2)
+# copy the file
+cp /etc/fstab /var/tmp/
+cd /var/tmp/ll
 
-# create the backup file:
+# configure permissions
+getfacl fstab      #(no user nathasha here)
+setfacl -m u:natasha:rw fstab
+setfacl -m u:harry:---  fstab
 
-# *for bz2 use this
-tar -cvjf /root/mybackup.tar.bz2 /usr/local
-
-# *for tgz use this
-tar -cvzf /root/mybackup.tar.tgz /usr/local# checkcd /rootls
+# check
+getfacl fstab
 ```
