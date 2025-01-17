@@ -1,29 +1,25 @@
-Q1 : Network Configuration
-==========================
+**Question 2** : Configure Your **node1** VM repository installed the packages distribution is available via YUM:
 
-**Question 1** : Configure TCP/IP and “hostname” as following:
+`   baseos url = http://content.example.com/rhel7.0/x86_64/dvd/BaseOS file:///opt/exam/BaseOsappstream url= http://content.example.com/rhel7.0/x86_64/dvd/Appstream file:///opt/exam/AppStream   `
 
-`   IP ADDRESS = 172.25.X.10NETMASK = 255.255.255.0GATEWAY = 172.25.X.254DNS = 172.25.254.254Hostname = node1.example.com   `
+**Answer**
 
-**Answer :** 
+`# check the repolist available (There will be none on this server)yum repolist all# Navigate to the /etc/yum/repos.d folder, create and edit a new .repo filecd /etc/yum.repos.d vi server.repo` 
 
-The above parameters are the one given on the exam sheet. For the practice now, follow the video carefully to set the network parameters you will use here.
-
-1.  You can use the nmtui command to set the IP address, the Gateway, the DNS as well as the hostname
-    
-2.  You may also want to use the command **hostnamectl set-hostname  node1.example.com** to set the hostname
-    
-3.  To check or modify the DNS configuration, you can vi in the **/etc/resolv.conf** file, search for the hostname of your server to see its DNS address
+*   AppStream:
     
 
-```
-# nmtui (use this command to configure network parameters)
-At the end of the network configuration with nmtui,you can use the Activate a connection menu to refresh the network
+For practice on this server, instead use the following baseurl: **file:///opt/exam/AppStream**
 
-## DNS Issue Resolve
-vi /etc/resolv.conf
-search the name of the server
+`[AppStream]name= AppStream baseurl=http://content.example.com/rhel7.0/x86_64/dvd/Appstream gpgcheck=0 enabled=1` 
 
-``` 
+*   BaseOS
+    
 
-**Note:** After configuring the IP address of your server, you can use that to connect remotely using Visual Studio Code or any other SSH tool
+For practice on this server, instead use the following baseurl: **file:///opt/exam/BaseOS**
+
+`   [BaseOS]name=BaseOSbaseurl=http://content.example.com/rhel7.0/x86_64/dvd/BaseOs gpgcheck=0 enabled=1   `
+
+Save and quit the file, clean the yum cash and check the repolist
+
+`   yum clean allyum repolist all   `
