@@ -36,6 +36,6 @@ For practice on this server, instead use the following baseurl: **file:///opt/e
 
 Save and quit the file, clean the yum cash and check the repolist
 
-`
+```
 yum clean allyum repolist all   
-`
+```
