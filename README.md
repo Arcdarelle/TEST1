@@ -5,6 +5,6 @@ Important notes before starting this course.​
     
 2.  Go through the following slide to import the server into your Virtualbox and break the root password to access the server.  **Note:** If you face any issues importing the server, follow the slide after this
 
-https://docs.google.com/presentation/d/e/2PACX-1vRad-IVF1m6x-9OnCaFTklEmYA_uNNU0qTViLBUxwrCjACgytU44FlX6qQt3WPOu2NLfqfE8aAVPhuv/embed?
+[https://docs.google.com/presentation/d/e/2PACX-1vRad-IVF1m6x-9OnCaFTklEmYA_uNNU0qTViLBUxwrCjACgytU44FlX6qQt3WPOu2NLfqfE8aAVPhuv/embed?](https://docs.google.com/presentation/d/1AOYQGSnG57a0PfAvuLoREwakspHRKilHwnBvtKGZVxo/edit#slide=id.g35f391192_00)/embed
 
 [**Click here to download the slide**](https://docs.google.com/presentation/d/1AOYQGSnG57a0PfAvuLoREwakspHRKilHwnBvtKGZVxo/edit?usp=sharing)
