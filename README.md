@@ -26,7 +26,11 @@ vi server.repo
 For practice on this server, instead use the following baseurl: **file:///opt/exam/AppStream**
 
 ```
-[AppStream]name= AppStream baseurl=http://content.example.com/rhel7.0/x86_64/dvd/Appstream gpgcheck=0 enabled=1
+[AppStream]
+name= AppStream
+baseurl=http://content.example.com/rhel7.0/x86_64/dvd/Appstream
+gpgcheck=0
+enabled=1
 ```
 *   **BaseOS**
     
@@ -34,7 +38,11 @@ For practice on this server, instead use the following baseurl: **file:///opt/e
 For practice on this server, instead use the following baseurl: **file:///opt/exam/BaseOS**
 
 ```
-[BaseOS]name=BaseOSbaseurl=http://content.example.com/rhel7.0/x86_64/dvd/BaseOs gpgcheck=0 enabled=1   
+[BaseOS]
+name=BaseOS
+baseurl=http://content.example.com/rhel7.0/x86_64/dvd/BaseOs
+gpgcheck=0
+enabled=1   
 ```
 Save and quit the file, clean the yum cash and check the repolist
 
