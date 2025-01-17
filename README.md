@@ -1,8 +1,3 @@
-Q1 : Network Configuration
-==========================
-
-[RedHat Exam Preparation](https://utrains.org/courses/redhat-exam-preparation/)  [Q1 : Network Configuration](https://utrains.org/lessons/q1-network-configuration/)In Progress
-
 **Question 1** : Configure TCP/IP and “hostname” as following:
 
 Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   IP ADDRESS = 172.25.X.10NETMASK = 255.255.255.0GATEWAY = 172.25.X.254DNS = 172.25.254.254Hostname = node1.example.com   `
