@@ -1,28 +1,25 @@
-Q5 : Collaborative Directory
-============================
+Q6 : Cronjob
+============
 
 
-**Question 5** : create a collaborative directory _**/shared/sysadm**_ with the following characteristics:
-
-*   Group ownership of _**/shared/sysadm**_ is sysadm.
-    
-*   The directory should be readable, writable, and accessible to member of sysadm, but not to any other user. (It is understood that root has access to all files and directories on the system.)
-    
-*   Files created in _**/shared/sysadm**_ automatically have group ownership set to the sysadm group.
-    
+**Question 6** : Set The Cron Job for the user “Natasha” that should runs daily every 3 minutes local time and executes “Ex200 Test in progress” with logger.
 
 **Answer**
 
 ```
-# create the directory. The -p option allow us to create nested directories
-mkdir -p /shared/sysadmls -ld /shared/sysadm
+# check if the crontab package is installed
+rpm -qa crontabs
 
-# Set the group ownership
-chgrp sysadm /shared/sysadm
+# Check if the daemon is running and enabled
+systemctl status crond
 
-# set permissions (read, write,execute)
-chmod 770 /shared/sysadmls -ld /shared/sysadm
+# create the cronjob
+crontab  -e -u natasha  */3****  echo "EX200 Testing"
 
-# set the SGID on the folder
-chmod 2770 /shared/sysadmls -ld /shared/sysadm
+# restart and enable the service
+systemctl restart crond.service
+systemctl enable crond.service
+
+# verify the cronjob is set for the user
+crontab -l -u natasha
 ```
