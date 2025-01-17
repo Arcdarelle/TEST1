@@ -1,33 +1,28 @@
-Q4 : User and Group
-===================
+Q5 : Collaborative Directory
+============================
 
 
-**Question 4** : Create the following users, groups, and group membership:
+**Question 5** : create a collaborative directory _**/shared/sysadm**_ with the following characteristics:
 
-*   A group named sysadm.
+*   Group ownership of _**/shared/sysadm**_ is sysadm.
     
-*   A user “harry” who belongs to sysadm as a secondary group.
+*   The directory should be readable, writable, and accessible to member of sysadm, but not to any other user. (It is understood that root has access to all files and directories on the system.)
     
-*   A user “natasha” who belongs to sysadm as a secondary group.
-    
-*   A user “sarah” who does not have access to an interactive shell & who is not a member of sysadm group.
-    
-*   “harry”, “natasha”, and “sarah” should all have the password of ringogee.
+*   Files created in _**/shared/sysadm**_ automatically have group ownership set to the sysadm group.
     
 
 **Answer**
 
 ```
-# create the sysadm
-groupgroupadd sysadm
+# create the directory. The -p option allow us to create nested directories
+mkdir -p /shared/sysadmls -ld /shared/sysadm
 
-# Create users with specific characteristics
-useradd -G sysadm harry
-useradd -G sysadm natasha
-useradd -s /sbin/nologin sarah
+# Set the group ownership
+chgrp sysadm /shared/sysadm
 
-# set password ringogee for all the users
-passwd harry
-passwd natasha
-passwd sarah
+# set permissions (read, write,execute)
+chmod 770 /shared/sysadmls -ld /shared/sysadm
+
+# set the SGID on the folder
+chmod 2770 /shared/sysadmls -ld /shared/sysadm
 ```
